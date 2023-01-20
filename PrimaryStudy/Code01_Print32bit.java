@@ -4,6 +4,7 @@ public class Code01_Print32bit {
         //32位
         int num = 758231234;
         print(num);
+        print(num >> 2);//右移两位，去1，在前面补0
     }
 
     public static void print(int num){
